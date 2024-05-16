@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.budget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.budgetTitle {
+    margin: 15px;
+}
+
+.budgetContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.budgetInput {
+    text-align: center;
+    background-color: skyblue;
+    width: 360px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.inputEl {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 280px;
+    height: 45px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+.budgetSpent {
+    text-align: center;
+    background-color: #50C878;
+    width: 360px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.budgetRemaining {
+    text-align: center;
+    background-color: #F2003C;
+    width: 360px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 20px;
+}
